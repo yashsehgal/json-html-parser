@@ -1,0 +1,123 @@
+[
+    {
+        "id": "parent",
+        "className": "application-root",
+        "type": "div",
+        "children": {
+            "id": "profile-card",
+            "className": "profile-card-wrapper w-fit h-auto shadow-md border border-slate-200 rounded-md p-3 hover:shadow-lg",
+            "type": "div",
+            "contains": [
+                {
+                    "id": "profile-title",
+                    "className": "leading-snug text-lg font-semibold text-slate-700",
+                    "type": "h1",
+                    "contains": "Yash Sehgal"
+                },
+                {
+                    "id": "profile-description",
+                    "className": "leading-snug text-sm text-slate-400",
+                    "type": "p",
+                    "contains": "product design. react. figma. code. food. music"
+                },
+                {
+                    "id": "profile-url",
+                    "className": "leading-snug px-4 py-1 bg-purple-600 text-white font-semibold uppercase text-center block mx-auto",
+                    "type": "button",
+                    "contains": "Check Profile"
+                },
+                {
+                    "id": "tags-layer",
+                    "className": "flex flex-row w-fit items-center justify-start gap-2 h-auto",
+                    "type": "div",
+                    "contains": [
+                        {
+                            "id": "react-tag",
+                            "className": "skill-tag px-2 py-0.5 bg-blue-600 text-white text-sm w-fit h-auto",
+                            "type": "p",
+                            "contains": "React"
+                        },
+                        {
+                            "id": "html-tag",
+                            "className": "skill-tag px-2 py-0.5 bg-orange-600 text-white text-sm w-fit h-auto",
+                            "type": "p",
+                            "contains": "HTML"
+                        },
+                        {
+                            "id": "figma-tag",
+                            "className": "skill-tag px-2 py-0.5 bg-pink-600 text-white text-sm w-fit h-auto",
+                            "type": "p",
+                            "contains": "Figma"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": "application-layout__parent",
+        "className": "application-layout-wrapper",
+        "type": "div",
+        "children": {
+            "id": "application-layout__header-layer",
+            "className": "application-header-layer-wrapper w-full h-auto flex flex-row items-center justify-between",
+            "type": "header",
+            "contains": [
+                {
+                    "id": "application-header__app-title",
+                    "className": "application-title leading-snug text-slate-800 font-semibold uppercase",
+                    "type": "h1",
+                    "contains": "Profile"
+                },
+                {
+                    "id": "application-header__action-options-list-wrapper",
+                    "className": "action-options-list-wrapper w-fit",
+                    "type": "div",
+                    "contains": [{
+                        "id": "application-header__action-options-list",
+                        "className": "action-options-list",
+                        "type": "ul",
+                        "contains": [
+                            {
+                                "id": "application-header__action-options-list-items__home-option",
+                                "className": "action-options-list-item list-none leading-snug text-sm font-semibold text-slate-800 hover:text-slate-600",
+                                "type": "li",
+                                "contains": "Home"
+                            },
+                            {
+                                "id": "application-header__action-options-list-items__docs-option",
+                                "className": "action-options-list-item list-none leading-snug text-sm font-semibold text-slate-800 hover:text-slate-600",
+                                "type": "li",
+                                "contains": "Docs"
+                            },
+                            {
+                                "id": "application-header__action-options-list-items__components-option",
+                                "className": "action-options-list-item list-none leading-snug text-sm font-semibold text-slate-800 hover:text-slate-600",
+                                "type": "li",
+                                "contains": "Components"
+                            },
+                            {
+                                "id": "application-header__action-options-list-items__github-option",
+                                "className": "action-options-list-item list-none leading-snug text-sm font-semibold text-slate-800 hover:text-slate-600",
+                                "type": "li",
+                                "contains": "GitHub"
+                            },
+                            {
+                                "id": "application-header__action-options-list-items__newsletter-option",
+                                "className": "action-options-list-item list-none leading-snug text-sm font-semibold text-slate-800 hover:text-slate-600",
+                                "type": "li",
+                                "contains": "Newsletter"
+                            },
+                            {
+                                "id": "application-header__action-options-list-items__learn-option",
+                                "className": "action-options-list-item list-none leading-snug text-sm font-semibold text-slate-800 hover:text-slate-600",
+                                "type": "li",
+                                "contains": ""
+                            }
+                        ]
+                    }]
+                }
+            ]
+        }
+    }
+]
