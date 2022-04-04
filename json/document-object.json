@@ -112,7 +112,7 @@
                                 "id": "application-header__action-options-list-items__learn-option",
                                 "className": "action-options-list-item list-none leading-snug text-sm font-semibold text-slate-800 hover:text-slate-600",
                                 "type": "li",
-                                "contains": ""
+                                "contains": "Playground"
                             }
                         ]
                     }]
